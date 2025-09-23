@@ -1,3 +1,7 @@
+@import "tailwindcss";
+
+
+/*以下demo样式可删除*/
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
