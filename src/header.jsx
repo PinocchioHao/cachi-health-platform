@@ -32,32 +32,8 @@ export default function LaptopHeader() {
         <header className="sticky top-0 z-50 border-b border-slate-200/70 bg-white">
             <div className="mx-auto flex h-24 max-w-[1400px] items-center gap-4 px-4 lg:h-24">
                 {/* 左侧：Logo */}
-                <div className="flex min-w-0 items-center gap-3">
-                    <img src="src/assets/logo.png" alt="Logo" className="h-15 w-auto" />
-                </div>
-
-                {/* 中间：搜索 */}
-                <div className="hidden min-w-0 flex-1 lg:block">
-                    <label className="relative block" aria-label="站内搜索">
-                        <span className="pointer-events-none absolute inset-y-0 left-3 grid place-items-center">
-                            <svg
-                                className="h-4 w-4 text-slate-400"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                stroke="currentColor"
-                                strokeWidth="2"
-                                strokeLinecap="round"
-                            >
-                                <circle cx="11" cy="11" r="7" />
-                                <path d="m21 21-4.3-4.3" />
-                            </svg>
-                        </span>
-                        <input
-                            type="search"
-                            placeholder="Search information about cancer…"
-                            className="w-full rounded-md border border-[#F7F2E2] bg-[#FFFFFF] pl-9 pr-3 py-2 text-sm text-slate-900 placeholder:text-slate-400 shadow-sm outline-none ring-0 focus:border-[#F7F2E2] focus:ring-2 focus:ring-[#40301C]"
-                        />
-                    </label>
+                <div className="flex min-w-0 items-center gap-3 flex-1 justify-center lg:justify-start">
+                    <img src="public/logo.png" alt="Logo" className="h-15 w-auto" />
                 </div>
 
                 {/* 主导航 */}
@@ -89,10 +65,6 @@ export default function LaptopHeader() {
                     </nav>
                 </div>
 
-                {/* 右侧：动作区 */}
-                <div className="ml-auto flex items-center gap-2">
-
-                </div>
             </div>
         </header>
     );
