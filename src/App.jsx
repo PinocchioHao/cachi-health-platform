@@ -14,7 +14,7 @@ function App() {
         <main className="w-full relative min-h-screen bg-[#F7F2E2]">
           <section className="w-full">
             <div className="mx-auto max-w-[1300px] px-4">
-              <img src="public/cloudDecorate.png" alt="Decorative clouds" className="mx-auto" />
+              <img src="/cloudDecorate.png" alt="Decorative clouds" className="mx-auto" />
               <h1 className="pb-25 text-center text-5xl font-serif font-extrabold text-gray-800">Tree of Health</h1>
               <TreeInteraction />
             </div>
