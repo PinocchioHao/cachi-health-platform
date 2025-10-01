@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import treeSvg from '/public/Tree2.svg?raw'
+import treeSvg from '/Tree2.svg?raw'
 
 // 统一在这里配置各弹窗区域的内容
 

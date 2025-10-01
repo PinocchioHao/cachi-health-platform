@@ -33,7 +33,7 @@ export default function LaptopHeader() {
             <div className="mx-auto flex h-24 max-w-[1400px] items-center gap-4 px-4 lg:h-24">
                 {/* 左侧：Logo */}
                 <div className="flex min-w-0 items-center gap-3 flex-1 justify-center lg:justify-start">
-                    <img src="public/logo.png" alt="Logo" className="h-15 w-auto" />
+                    <img src="/logo.png" alt="Logo" className="h-15 w-auto" />
                 </div>
 
                 {/* 主导航 */}
