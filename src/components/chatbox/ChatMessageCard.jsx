@@ -25,7 +25,7 @@ export default function ChatMessageCard({ role, content }) {
                     className="text-xs text-blue-600 mt-2"
                     onClick={() => setExpanded(true)}
                 >
-                    展开更多…
+                    more…
                 </button>
             )}
         </div>

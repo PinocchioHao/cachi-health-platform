@@ -29,7 +29,7 @@ export default function ChatWidget() {
             });
 
             const json = await resp.json();
-            const aiContent = json?.data?.content || "（AI 未返回内容）";
+            const aiContent = json?.data?.content || "(No response, please try again later)";
 
             // 添加 AI 回复
             setMessages((m) => [
@@ -39,7 +39,7 @@ export default function ChatWidget() {
         } catch (err) {
             setMessages((m) => [
                 ...m,
-                { role: "assistant", content: "服务器异常，请稍后再试 🙏" },
+                { role: "assistant", content: "Server error, please try again later" },
             ]);
         } finally {
             setIsLoading(false); // 解锁输入
