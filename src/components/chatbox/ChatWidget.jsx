@@ -23,7 +23,8 @@ export default function ChatWidget() {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
-                    model: "tngtech/tng-r1t-chimera:free",
+                    // 后端控制LLM模型
+                    // model: "tngtech/tng-r1t-chimera:free",
                     messages: [{ role: "user", content: text }],
                 }),
             });
